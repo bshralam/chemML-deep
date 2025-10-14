@@ -1,0 +1,43 @@
+name: chemML
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  # Core
+  - python=3.11
+  - pip
+
+  # Scientific / data stack
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+
+  # Scikit-learn / ML
+  - scikit-learn
+
+  # PyTorch & ecosystem
+  - pytorch
+  - torchvision
+  - torchaudio
+
+  # Utilities & extras
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - tqdm
+
+  # If any packages only on pip:
+  - pip:
+    - torch-geometric
+    - torchtext
+    - einops
+    - transformers
+    - datasets
+    - torch-scatter
+    - torch-sparse
+    - torch-cluster
+    - torch-spline-conv
+
+
